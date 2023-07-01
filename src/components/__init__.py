@@ -1,2 +1,2 @@
 # flake8: noqa
-from src.components.upload_dbs import upload_dbs
+from src.components.get_description import get_description
