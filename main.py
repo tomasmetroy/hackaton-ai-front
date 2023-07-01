@@ -11,12 +11,12 @@ load_dotenv()
 
 
 if check_password():
-    st.set_page_config(page_title="Tucar", page_icon="📈", layout="wide")
+    st.set_page_config(page_title="Hackaton EYU", page_icon="📈", layout="wide")
     st.title("Hackaton EY - Bianquilu & Cia")
     st.markdown("""
     Esta aplicación permite generar descripciones mediante AI
-    * **Python libraries used:** pandas, streamlit, bigquery
-    * **Data source:** Tucar app
+    * **Python libraries used:** pandas, streamlit
+    * **Data source:** Hackaton EYU
     """)
 
     option = st.selectbox(
