@@ -35,4 +35,5 @@ if check_password():
                 col3.subheader("Comentarios negativos")
                 col3.write(description_component.iloc[0]["negative"])
                 col4.subheader("Productos recomendados")
-                col4.write(description_component.iloc[0]["recommended"])
+                col4.write(f"- {description_component.iloc[0]['recommended'][0]}")
+                col4.write(f"- {description_component.iloc[0]['recommended'][1]}")
