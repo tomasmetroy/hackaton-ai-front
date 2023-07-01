@@ -23,7 +23,7 @@ if check_password():
     # )
 
     if True:
-        product_id = st.text_input('Nombre producto')
+        product_id = st.selectbox(label="Nombre producto", options=["", "Lavadora", "Licuadora"])
         if product_id != '':
             description_component = get_description(product_id)
             if isinstance(description_component, pd.DataFrame):
