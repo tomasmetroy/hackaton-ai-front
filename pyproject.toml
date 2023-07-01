@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "datrack-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["tomasmetroy <tomasperezmoya@gmail.com>"]
+readme = "README.md"
+packages = [{include = "datrack_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+pymongo = {extras = ["srv"], version = "^4.2.0"}
+pandas = "^1.5.0"
+pytz = "^2022.4"
+uuid = "^1.30"
+firebase-admin = "^6.0.0"
+streamlit = "^1.17.0"
+openpyxl = "^3.0.10"
+google-cloud-bigquery = "^3.4.2"
+python-dotenv = "^0.21.0"
+db-dtypes = "^1.0.5"
+matplotlib = "^3.6.3"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
