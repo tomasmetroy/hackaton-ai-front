@@ -12,7 +12,7 @@ load_dotenv()
 
 if check_password():
     st.set_page_config(page_title="Hackaton EYU", page_icon="📈", layout="wide")
-    st.title("Falabella analiza: lo mejor de tu catálogo")
+    st.title("OpinAI: lo mejor de tu catálogo")
     st.markdown("""
     Te mostramos un análisis de reseñas sobre ventajas y desventajas del
     producto seleccionado, junto con recomendaciones sobre productos similares.
